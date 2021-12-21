@@ -297,6 +297,7 @@ class Utils
      */
     public static function toWei($number, $unit)
     {
+        if(is_numeric($number)) $number =  (string)$number;
         if (!is_string($number) && !($number instanceof BigNumber)) {
             throw new InvalidArgumentException('toWei number must be string or bignumber.');
         }
