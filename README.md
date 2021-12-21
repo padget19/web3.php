@@ -24,7 +24,7 @@ composer require padget19/web3.php dev-master
 Or you can add this line in composer.json
 
 ```
-"padget19/web3.php": "dev-master"
+"padget19/web3.php": "~0.1.4"
 ```
 
 
